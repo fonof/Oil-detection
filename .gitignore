@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data / heavy products
+data/**
+!data/.gitkeep
+*.SAFE/
+*.SAFE.zip
+*.zip
+*.tif
+*.tiff
+*.npy
+
+# Models (upload via Releases)
+models/*.pth
+models/*.pt
+!models/README.md
+
+# Logs / runs
+runs/
+output/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.netrc
+**/credentials*
